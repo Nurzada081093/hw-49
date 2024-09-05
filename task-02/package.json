@@ -4,8 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "board": "node board.js",
-    "dev": "nodemon"
+    "dev": "nodemon",
+    "board": "npm i && npm run build && node board.js"
   },
   "keywords": [],
   "author": "",
